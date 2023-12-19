@@ -195,7 +195,7 @@ void generateBillBody(char item[20], int qty, float price){
 }
 
 void generateBillfooter(float total){
-	printf("\n");
+	printf("\n\n");
 	float discount = 0.1 * total;
 	float netTotal = total - discount;
 	float cgst = 0.09 * netTotal,grandTotal = netTotal + 2 * cgst; //netTotal + cgst + sgst (%9)
