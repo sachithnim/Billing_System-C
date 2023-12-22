@@ -7,7 +7,7 @@
  void generateBillfooter(float total);
 
 	struct items{
-		char item[30];
+		char item[20];
 		float priceOfItem;
 		int qty;
 	};
